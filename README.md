@@ -2,6 +2,8 @@
 
 Shared library for Spring Boot microservices in Learning management system
 
+[![](https://jitpack.io/v/DamaluMalisa/zahara-learning-management-system-shared-library.svg)](https://jitpack.io/#DamaluMalisa/zahara-learning-management-system-shared-library)
+
 
 ## Using with Maven
 
@@ -21,7 +23,7 @@ and the dependency:
 <dependency>
     <groupId>com.github.DamaluMalisa</groupId>
     <artifactId>zahara-learning-management-system-shared-library</artifactId>
-    <version>v1.0.0</version>
+    <version>Tag</version>
 </dependency>
 
 ```
