@@ -22,7 +22,7 @@ public abstract class BaseEntity<ID> {
     @Id
     @GenericGenerator(
             name = "UseExistingIdOtherwiseGenerateUsingIdentity",
-            strategy = "util.com.zahara.lms.shared.UseExistingIdOtherwiseGenerateUsingIdentity")
+            strategy = "com.zahara.lms.shared.UseExistingIdOtherwiseGenerateUsingIdentity")
     @GeneratedValue(generator = "UseExistingIdOtherwiseGenerateUsingIdentity")
     protected ID id;
 
