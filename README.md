@@ -1,4 +1,4 @@
-# Learning management system - Shared library
+# Zahara Learning management system - Shared library
 
 Shared library for Spring Boot microservices in Learning management system
 
@@ -20,8 +20,9 @@ and the dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.bojanzdelar</groupId>
-    <artifactId>learning-management-system-shared-library</artifactId>
-    <version>Tag</version>
+    <groupId>com.github.DamaluMalisa</groupId>
+    <artifactId>zahara-learning-management-system-shared-library</artifactId>
+    <version>v1.0.0</version>
 </dependency>
+
 ```
