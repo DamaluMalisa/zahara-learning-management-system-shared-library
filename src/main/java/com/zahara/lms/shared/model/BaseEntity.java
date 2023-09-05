@@ -22,9 +22,10 @@ public abstract class BaseEntity<ID> {
     @Id
     @GenericGenerator(
             name = "UseExistingIdOtherwiseGenerateUsingIdentity",
-            strategy = "com.zahara.lms.shared.UseExistingIdOtherwiseGenerateUsingIdentity")
+            strategy = "com.zahara.lms.shared.util.UseExistingIdOtherwiseGenerateUsingIdentity")
     @GeneratedValue(generator = "UseExistingIdOtherwiseGenerateUsingIdentity")
     protected ID id;
+
 
     @Column(nullable = false, columnDefinition = "boolean default false")
     protected boolean deleted = false;
